@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/style2.css">
+  <link rel="stylesheet" href="CSS/form.css">
+  <script src="JavaScript/JavaScript.js"></script>
+  <title>Cadastro</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="reciclatec" href="index.html">ReciclaTec</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="produto.html">Produto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dev.html">Desenvolvedores</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Sobre nos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="reciclatec.html">Sobre a ReciclaTec</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="parceiros.html">Parceiros</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+<br>
+  <main>
+    <div class="fundo">
+      <form name="Cadastro">
+        <div class="color">
+
+
+          <h1 class="mid">Cadastro</h1>
+
+          <label for="nome" class="nome">Nome</label>
+          <input type="text" id="nomeid" placeholder="Santos" required="required" name="nome">
+          <label for="nome" class="nome">Sobrenome</label>
+          <input type="text" id="sobrenomeid" placeholder="Dumont de andrade" required="required" name="nome">
+          <br>
+          <label for="fone" class="tel">Telefone</label>
+          <input type="tel" id="foneid" placeholder="(xx) xxxxx-xxxx" required="required" name="fone">
+          <br>
+          <label for="email" class="email">E-mail</label>
+          <input type="email" id="emailid" placeholder="Exemplo@gmail.com" required="required" name="email">
+          <label for="email" class="segemail">segundo E-mail</label>
+          <input type="email" id="emailid" placeholder="Exemplo@gmail.com" name="email">
+          <br>
+          <label for="rua" class="rua">Rua</label>
+          <input type="text" id="ruaid" placeholder="Ademar de barros" required="required" name="rua">
+          <label for="bairro" class="bairro">bairro</label>
+          <input type="text" id="bairroid" placeholder="Santa Rosa" required="required" name="bairro">
+
+          <br>
+          <label for="numero" class="number">Número</label>
+          <input type="number" id="numeroid" placeholder="334" required="required" name="numero">
+          <label for="Complemento" class="complemento">Complemento</label>
+          <input type="text" id="Complementoid" placeholder="Portaria" name="Complemento">
+          <br>
+          <label for="Senha" class="senha">Senha</label>
+          <input type="password" id="senhaid" placeholder="************" required="required" name="senha">
+          <br>
+          <label for="Senha" class="confirmar"> confirmar</label>
+          <input type="password" id="senhaid" placeholder="************" required="required" name="senha">
+
+          <button type="button" class="btn btn-outline-light enviar" type="submit" onclick="Enviar();" value="Finalizar"> FINALIZAR</button>
+         
+
+
+        </div>
+      </form>
+
+
+    </div>
+  </main>
+<br><br>  
+
+  <footer>
+
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="reciclatec" href="index.html">
+          <img src="imagem/_a25ce44b-29e9-437b-b9a6-7d6342bd15bf.jfif" alt="Logo" width="40" height="40">
+          ReciclaTec</a>
+        <a class="navbar-brand" href="produto.html">Produto</a>
+        <a class="navbar-brand" href="dev.html">Desenvolvedores</a>
+        <a class="navbar-brand" href="reciclatec.html">Sobre a ReciclaTec</a>
+        <a class="navbar-brand" href="parceiros.html">Parceiros</a>
+        <a class="navbar-brand" href="blog.html">Blog</a>
+        <a class="navbar-brand" href="faq.html" id="conteiner">FAQ</a>
+      </div>
+      </div>
+    </nav>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

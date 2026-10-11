@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+#reciclatec {
+    background: linear-gradient(90deg, rgb(9, 156, 1), rgb(0, 255, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#maquina {
+    text-align: center;
+    font-size: 100px;
+    background: linear-gradient(90deg, rgb(225, 250, 3), rgb(237, 0, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+hr {
+    color: white;
+    padding-top: 10px;
+    margin-top: 1px;
+}
+
+.color {
+    color: snow;
+}
+
+.mid {
+    text-align: center;
+
+}
+
+.p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#p {
+    padding-top: 60px;
+}
+
+#pad {
+    padding-bottom: 60px;
+}
+
+#conteiner {
+    padding-right: 60px;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+}
+
+.img {
+    max-width: 300px;
+}
+
+.lasca {
+    margin-left: 95px;
+
+}
+
+.lasca1 {
+    margin-left: 86px;
+
+}
+
+.lasca2 {
+    margin-left: 90px;
+}
+
+.distancia{
+    display: flex;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,127 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.di {
+    flex-grow: 2;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.rao {
+    flex-grow: 2;
+    margin-top: 60px;
+}
+
+.di1 {
+    flex-grow: 2;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.rao1 {
+    flex-grow: 2;
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.mar {
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.b {
+    margin-left: 60px;
+    ;
+}
+
+.c {
+    margin-top: 60px;
+}
+
+#id {
+    margin-left: 260px;
+}
+
+.img {
+    max-width: 300px;
+}
+
+.teste {
+    border: 10px solid rgba(5, 150, 17, 0.471);
+}
+
+#pedr {
+    margin-top: 30px;
+}
+
+#vini {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#gra1 {
+    background: linear-gradient(90deg, rgb(95, 188, 255), rgb(252, 89, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#gra2 {
+    background: linear-gradient(90deg, rgb(255, 0, 0), rgb(255, 230, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#gra3 {
+    background: linear-gradient(90deg, rgb(9, 156, 1), rgb(0, 255, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#direct {
+    margin-top: 130px;
+}
+
+#button {
+    margin-top: 30px;
+}
+
+.box {
+    background: linear-gradient(90deg, green, blue);
+}
+
+.gh {
+    font-size: 20px;
+}
+
+.missao1 img {
+    max-width: 300px;
+    margin-left: 30px;
+    -moz-transition: all 8.3s;
+    -webkit-transition: all 8.3s;
+    transition: all 8.3s;
+}
+
+.missao1:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.flex2 {
+    justify-items: center;
+    align-items: center;
+}
+
+.color-input{
+    color: rgb(82, 82, 82);
+}

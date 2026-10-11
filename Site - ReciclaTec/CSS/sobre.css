@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+.into {
+    color: snow;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img {
+    max-width: 1px;
+}
+
+.missao {
+    width: 200px;
+    margin-left: 50px;
+}
+
+.visao {
+    width: 200px;
+}
+
+.valores {
+    width: 200px;
+    margin-right: 100px;
+}
+
+.valor {
+    margin-left: 70px;
+    margin-top: 10px;
+
+}
+
+.vis {
+    margin-left: 75px;
+    margin-top: 40px;
+}
+
+.m1 {
+    margin-left: 125px;
+    margin-top: 10px;
+}
+
+.mtxt {
+    max-width: 500px;
+    margin-left: 0px;
+}
+
+.vstxt {
+    max-width: 300px;
+}
+
+.vrtxt {
+    max-width: 500px;
+}
+
+.margin-missao {
+    margin-left: 10px;
+}
+
+.margin-visao {
+    margin-left: 10px;
+}
+
+.margin-valores {
+    margin-right: 50px;
+}
+
+.margin-maquina {
+    margin-left: 400px;
+}
+
+.margin-paragrafo1 {
+    max-width: 800px;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+.margin-paragrafo2 {
+
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px
+}
+
+.imagem-sacola {
+    margin-top: 100px;
+    max-width: 400px;
+    margin-left: 200px;
+    border-radius: 30px;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 400px;
+    -moz-transition: all 6.4s;
+    -webkit-transition: all 6.4s;
+    transition: all 0.3;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+}
+
+.direção1 {
+    flex-grow: 2;
+}
+
+.direção2 {
+    flex-grow: 2;
+}
+
+div>h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.paragrafo {
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
